@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лабораторна робота №3</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- FLOAT -->
+	<div class="container"> <!-- створили контейнер з фіксованою ширину, де будуть розміщені наші блоки -->
+		<div class="header"> <!-- умовна шапка на всю ширину -->
+			FLOAT
+		</div>
+		<div class="img-left"> <!-- контентний блок, який розташований зліва -->
+			IMG
+		</div>
+		
+		<div class="text-right"> <!-- контентний блок, який розташований справа -->
+			TEXT
+		</div>
+		<div class="clear"></div> <!-- службовий тег, якому задається стиль clear: both; для того щоб нижні блок не налазив на верхні блоки у яких є стан float -->
+		<div class="footer"> <!-- умовний футер на всю ширину -->
+			IMG
+		</div>
+
+		<div class="footer"> <!-- умовний футер на всю ширину -->
+			TEXT
+		</div>
+
+	</div>
+	<!-- FLEX -->
+	<div class="container-flex container"> <!-- створили контейнер з фіксованою ширину, де будуть розміщені наші блоки і задали блоку display:flex; -->
+		<div class="header-flex"> <!-- умовна шапка на всю ширину -->
+			FLEX
+		</div>
+		<div class="row-flex-3 flex-left"> <!-- контентний блок, який розташований зліва -->
+			IMG
+		</div>
+		<div class="text-right"> <!-- контентний блок, який розташований  -->
+		TEXT
+		</div>
+		
+		<div class="footer-flex"> <!-- умовний футер на всю ширину -->
+			IMG
+		</div>
+
+		<div class="footer-flex"> <!-- умовний футер на всю ширину -->
+			TEXT
+		</div>
+
+	</div>
+</body>
+</html>
